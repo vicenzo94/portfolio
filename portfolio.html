@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="portfolio.css">
+    <link type="text/css" rel="stylesheet" href="zoombox/zoombox.css">
+    <title>Portfolio en ligne</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+    <div id="left" class="bkg">
+        <ul id="nav">
+            <li> <a href="#home" class="active">Acceuil</a> </li>
+            <li> <a href="#portfolio">Portfolio</a> </li>
+            <li> <a href="#contact">Contact</a> </li>
+        </ul>
+    </div>
+    <div id="right">
+        <div id="home" class="page">
+            <h2> Vincent Valentino , Web Developer & Intégrateur</h2>
+            <p class="sub-title">acceuil</p>
+            <img src="img_bkg/vincent.valentino.jpg" alt="photo d identité">
+            <div class="about-text">
+                <h3> Hello ! </h3>
+                <p>
+                    Bienvenue sur mon portfolio , n 'hesitez pas à parcourir mes différents projets, et si vous êtes
+                    intéréssé(e)s conctatez moi un peu plus bas
+
+                </p>
+            </div>
+            <div class="cb"></div>
+            <div class="separator"></div>
+            <div id="blocs">
+                <div class="bloc">
+                    <div class="bloc-title">
+                        <img src="img_bkg/html.png" alt="techno" />
+                        <h4>HTML/CSS</h4>
+                        <p>
+                            Réalisations de plusieurs maquettes en html/css !
+                        </p>
+                        <a href="#" class="more">+Voir</a>
+                    </div>
+                </div>
+                <div class="bloc">
+                    <div class="bloc-title">
+                        <img src="img_bkg/javascript.png" alt="techno_js" />
+                        <h4>JAVA SCRIPT</h4>
+                        <p>
+                            Realisation de projets en jquery react et react native.
+                        </p>
+                        <a href="#" class="more">+Voir</a>
+                    </div>
+                </div>
+                <div class="bloc last">
+                    <div class="bloc-title">
+                        <img src="img_bkg/php.png" alt="php" />
+                        <h4>PHP</h4>
+                        <p>
+                            Réalisation de projets avec les framework symfony et laravel.
+                        </p>
+                        <a href="#" class="more">+Voir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cb"></div>
+            <div class="separator"></div>
+            <div id="portfolio" class="page">
+                <h2> Mes projets en images </h2>
+                <p class="sub-title">portfolio</p>
+                <div class="content">
+                    <ul>
+                        <li><a href="img_bkg/p4-big.png" class="zoombox zgallery1"><img src="img_bkg/p4.jpg"
+                                    alt="puissance4"></a></li>
+                        <li><a href="img_bkg/myirc-big.png" class="zoombox zgallery1"><img src="img_bkg/tchat.jpg"
+                                    alt="chat en ligne"></a></li>
+                        <li class="last"><a href="img_bkg/tweet-big.png" class="zoombox zgallery1"><img
+                                    src="img_bkg/tweet.jpg" alt="twitter"></a></li>
+                        <li><a href="img_bkg/snap-big.png" class="zoombox zgallery1"><img src="img_bkg/snap.jpg"
+                                    alt="snapchat"></a></li>
+                        <li><a href="img_bkg/mypaint-big.jpeg" class="zoombox zgallery1"><img src="img_bkg/paint.jpg"
+                                    alt="mypaint"></a></li>
+                        <li class="last"><a href="img_bkg/meetic-big.png" class="zoombox zgallery1"><img
+                                    src="img_bkg/meetic.jpg" alt="my_meetic"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="page">
+            <h2>Me contacter</h2>
+            <p class="sub-title">contact</p>
+            <div class="bloc">
+                <h3>Je suis sociable ! N' hesitez pas a me contacter</h3>
+                <p>
+
+                </p>
+                <form method="post" action="https://formspree.io/vincent.valentino94@gmail.com" id="form">
+
+                    <label for="nom">Nom:</label>
+                    <input type="text" class="text" name="nom" id="nom">
+
+                    <label for="email">Email:</label>
+                    <input type="text" class="text" name="email" id="email">
+
+                    <label for="sujet">Sujet:</label>
+                    <input type="text" class="sujet" name="sujet" id="sujet">
+
+                    <label for="message">Message:</label>
+                    <textarea class="text" name="mesage" id="message" rows="5" cols="10"></textarea>
+
+                    <input type="submit" class="submit" id="send" value="Envoyer">
+
+                </form>
+            </div>
+            <div class="bloc last">
+                <h3>me joindre</h3>
+                <p>
+                    Si vous rencontrez un probléme avec le formulaire ci-dessus vous pouvez trouver mes coordonnées
+                    ci-dessous . <br />
+                    Tel : +33 6 35 27 13 68
+                    <a href="mailto:hello@me.fr">vincent.valentino94@gmail.com</a>
+                    <a href="#">www.project.fr</a>
+                </p>
+                <br />
+                <h3>+ Social</h3>
+                <p>
+                    <a href="#"><img src="img_bkg/facebook.png" alt="facebook" /> </a>
+                    <a href="#"><img src="img_bkg/twitter.png" alt="twitter" /> </a>
+                    <a href="#"><img src="img_bkg/linkedin.png" alt="likedin" /> </a>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="zoombox/zoombox.js"></script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('a.zoombox').zoombox();
+        });
+    </script>
+
+    <script type="text/javascript" src="portfolio.js"></script>
+
+
+</body>
+
+</html>
